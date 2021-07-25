@@ -1,7 +1,6 @@
 # Time Series Analysis on Store Item Demand Forecasting
 
-### **Objective:** 
-#### Predict 3 months of item sales at different stores
+### **Objective:** Predict 3 months of item sales at different stores
                                                
 
 The dataset is provided with 4 columns:       
