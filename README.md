@@ -12,18 +12,19 @@ The dataset is provided with 4 columns:
 
 ### Process:
 - Visualise the Time series
-- Decomposing into trend, seasonal, cyclical and noise components
-- Analyze the seasonality of a Time Series: additive and multiplicative.
-- Check stationarity of data
-- Statinarize Time series
-- Plot ACF/PACF charts and find optimal parameters
-- Build Time series models according to data
+- **Decomposing** into trend, seasonal, cyclical and noise components
+- Analyze the **seasonality** of a Time Series: additive and multiplicative.
+- Check **stationarity** of data - **Rolling Mean, ADCF Test(Augmented Dickey–Fuller test)**
+- Statinarize Time series - first **differencing**
+- Plot **ACF/PACF** charts and find optimal parameters
+- Build Time series models according to data - **AR, MA, ARIMA, SARIMA**
+- Plot Residual distribution
 - Make predictions
-
-### Results:
-
+- **MAPE,SMAPE** as evaluation metric
 
 ### References:
 - https://towardsdatascience.com/what-is-time-series-decomposition-and-how-does-it-work-9b67e007ae90
-- 
+- https://www.machinelearningplus.com/time-series/arima-model-time-series-forecasting-python/
+- http://www.seanabu.com/2016/03/22/time-series-seasonal-ARIMA-model-in-python/
+
 
