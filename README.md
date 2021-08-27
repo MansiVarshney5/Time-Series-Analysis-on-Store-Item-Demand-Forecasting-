@@ -9,12 +9,12 @@ The dataset is provided with 4 columns:
 **item:** This is the item number       
 **sales:** Sales made on that particular day  
 
-### Process:
+### Approach:
 - Visualise the Time series
 - **Decomposing** into trend, seasonal, cyclical and noise components
 - Analyze the **seasonality** of a Time Series: additive and multiplicative.
 - Check **stationarity** of data - **Rolling Mean, ADCF Test(Augmented Dickey–Fuller test)**
-- Statinarize Time series - first **differencing**
+- Stationarize Time series - first **differencing**
 - Plot **ACF/PACF** charts and find optimal parameters
 - Build Time series models according to data - **AR, MA, ARIMA, SARIMA**
 - Plot Residual distribution
